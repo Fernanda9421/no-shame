@@ -1,0 +1,10 @@
+.body-location {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 889px) {
+  .body-location {
+    display: flex;
+    flex-direction: column;
+  }
+}
