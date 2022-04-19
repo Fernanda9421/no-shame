@@ -9,9 +9,9 @@ export default function NavBar() {
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 3 }} color='white'
       >
-        <Link sx={{ pr: 5 }} href='/' underline='none' color='inherit'>HOME</Link>
-        <Link sx={{ pr: 5 }} href='/' underline='none' color='inherit'>T-SHIRTS ALGODÃO</Link>
-        <Link href='/' underline='none' color='inherit'>CONTATO</Link>
+        <Link className='link-navbar' sx={{ pr: 5 }} href='/' underline='none' color='inherit'>HOME</Link>
+        <Link className='link-navbar' sx={{ pr: 5 }} href='/' underline='none' color='inherit'>T-SHIRTS ALGODÃO</Link>
+        <Link className='link-navbar' href='/' underline='none' color='inherit'>CONTATO</Link>
       </Box>
     </div>
   );
