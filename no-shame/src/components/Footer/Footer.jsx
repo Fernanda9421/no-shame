@@ -5,7 +5,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <footer className='footer'>
-      <Box px={{xs: 3, sm: 10}} py={{xs: 5, sm: 6}} bgcolor='text.secondary' color='white'>
+      <Box px={{xs: 3, sm: 10}} py={{xs: 5, sm: 6}} color='white'>
         <Container maxWidth="lg">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
