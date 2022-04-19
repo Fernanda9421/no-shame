@@ -12,7 +12,7 @@ export default function NavBar() {
       >
         <Link className='link-navbar' sx={{ pr: 5 }} to='/'>HOME</Link>
         <Link className='link-navbar' sx={{ pr: 5 }} to='/'>T-SHIRTS ALGODÃO</Link>
-        <Link className='link-navbar' to='/'>CONTATO</Link>
+        <Link className='link-navbar' to='/location'>CONTATO</Link>
       </Box>
     </div>
   );

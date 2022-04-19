@@ -22,7 +22,7 @@ export default function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1} sx={{ fontWeight: 'bold' }}>SUPORTE</Box>
               <Box sx={{ lineHeight: 2.5, fontSize: 13 }}>
-                <Link className='link-footer' to='/' underline='none' color='inherit'>CONTATO</Link>
+                <Link className='link-footer' to='/location' underline='none' color='inherit'>CONTATO</Link>
               </Box>
             </Grid>
 
