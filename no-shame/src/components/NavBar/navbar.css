@@ -1,3 +1,17 @@
 .navbar {
   background-color: #141414;
 }
+
+.link-navbar {
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+}
+
+.link-navbar:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.link-navbar:visited {
+  color: aqua;
+}
