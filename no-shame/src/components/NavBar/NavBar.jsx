@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Link } from '@mui/material';
+import { Box } from '@mui/material';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
@@ -9,9 +10,9 @@ export default function NavBar() {
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 3 }} color='white'
       >
-        <Link className='link-navbar' sx={{ pr: 5 }} href='/' underline='none' color='inherit'>HOME</Link>
-        <Link className='link-navbar' sx={{ pr: 5 }} href='/' underline='none' color='inherit'>T-SHIRTS ALGODÃO</Link>
-        <Link className='link-navbar' href='/' underline='none' color='inherit'>CONTATO</Link>
+        <Link className='link-navbar' sx={{ pr: 5 }} to='/'>HOME</Link>
+        <Link className='link-navbar' sx={{ pr: 5 }} to='/'>T-SHIRTS ALGODÃO</Link>
+        <Link className='link-navbar' to='/'>CONTATO</Link>
       </Box>
     </div>
   );

@@ -5,6 +5,8 @@
 .link-navbar {
   -webkit-transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
+  padding-left: 2%;
+  text-decoration: none;
 }
 
 .link-navbar:hover {

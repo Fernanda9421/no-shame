@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Grid, Box, Link } from '@mui/material';
+import { Container, Grid, Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 export default function Footer() {
@@ -11,17 +12,17 @@ export default function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1} sx={{ fontWeight: 'bold' }}>SOBRE</Box>
               <Box sx={{ lineHeight: 2.5, fontSize: 13 }}>
-                <Link href='/' underline='none' color='inherit'>NOSSA HISTÓRIA</Link>
+                <Link className='link-footer' to='/' underline='none' color='inherit'>NOSSA HISTÓRIA</Link>
               </Box>
               <Box sx={{ fontSize: 13 }}>
-                <Link href='/' underline='none' color='inherit'>LOCALIZAÇÃO</Link>
+                <Link className='link-footer' to='/' underline='none' color='inherit'>LOCALIZAÇÃO</Link>
               </Box>
             </Grid>
 
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1} sx={{ fontWeight: 'bold' }}>SUPORTE</Box>
               <Box sx={{ lineHeight: 2.5, fontSize: 13 }}>
-                <Link href='/' underline='none' color='inherit'>CONTATO</Link>
+                <Link className='link-footer' to='/' underline='none' color='inherit'>CONTATO</Link>
               </Box>
             </Grid>
 
