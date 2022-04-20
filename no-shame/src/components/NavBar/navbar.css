@@ -7,13 +7,10 @@
   transition: transform .3s ease;
   padding-left: 2%;
   text-decoration: none;
+  color: aqua;
 }
 
 .link-navbar:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-.link-navbar:visited {
-  color: aqua;
 }

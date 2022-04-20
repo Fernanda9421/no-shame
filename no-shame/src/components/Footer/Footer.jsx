@@ -6,7 +6,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <footer className='footer'>
-      <Box px={{xs: 3, sm: 10}} py={{xs: 5, sm: 6}} color='white'>
+      <Box px={{xs: 3, sm: 10}} py={{xs: 5, sm: 3}} color='white'>
         <Container maxWidth="lg">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
@@ -15,7 +15,7 @@ export default function Footer() {
                 <Link className='link-footer' to='/' underline='none' color='inherit'>NOSSA HISTÓRIA</Link>
               </Box>
               <Box sx={{ fontSize: 13 }}>
-                <Link className='link-footer' to='/' underline='none' color='inherit'>LOCALIZAÇÃO</Link>
+                <Link className='link-footer' to='/location' underline='none' color='inherit'>LOCALIZAÇÃO</Link>
               </Box>
             </Grid>
 
@@ -27,8 +27,8 @@ export default function Footer() {
             </Grid>
 
             <Grid item xs={12} sm={4}>
-              <Box sx={{ fontWeight: 'bold', fontSize: 35 }} textAlign='center'>NO</Box>
-              <Box sx={{ fontWeight: 'bold', fontSize: 35 }} textAlign='center'>SHAME</Box>
+              <Box sx={{ fontWeight: 'bold', fontSize: 25 }} textAlign='center'>NO</Box>
+              <Box sx={{ fontWeight: 'bold', fontSize: 25 }} textAlign='center'>SHAME</Box>
             </Grid>
           </Grid>
           <Box textAlign='center' pt={{xs: 5, sm:5}} pb={{xs:5, sm:0}}>
