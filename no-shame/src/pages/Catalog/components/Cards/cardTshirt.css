@@ -1,0 +1,22 @@
+.card-content {
+  background-color: #1a1919;
+  color: white;
+}
+
+.typography {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.div {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-area {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a1919 !important;
+}
