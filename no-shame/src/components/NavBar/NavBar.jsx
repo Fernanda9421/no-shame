@@ -20,7 +20,7 @@ export default function NavBar() {
         <NavLink
           className='link-navbar'
           sx={{ pr: 5 }}
-          to='/'
+          to='/catalog'
         >
           T-SHIRTS ALGODÃO
         </NavLink>
