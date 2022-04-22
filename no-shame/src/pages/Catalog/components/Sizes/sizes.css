@@ -1,0 +1,21 @@
+#demo-row-radio-buttons-group-label {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.radio-group {
+  display: flex;
+  color: cyan;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #demo-row-radio-buttons-group-label {
+    font-size: 1.3rem;
+  }
+}
