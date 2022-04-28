@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Radio, FormControlLabel, FormControl, FormLabel } from '@mui/material';
 import { cyan } from '@mui/material/colors';
 import './sizes.css';
+import NoShameContext from '../../../../context/NoShameContext';
 
 export default function RowRadioButtonsGroup() {
-  const [value, setValue] = React.useState('');
+  const { size, setSize } = useContext(NoShameContext)
   const sizes = ['P', 'M', 'G', 'GG', 'G1', 'G2'];
 
   const handleChange = (event) => {
-    setValue(event.target.value);
+    setSize(event.target.value);
   };
 
   const controlProps = (item) => ({
-    checked: value === item,
+    checked: size === item,
     onChange: handleChange,
     value: item,
     name: 'color-radio-button-demo',
     inputProps: { 'aria-label': item },
   });
-  console.log(value);
 
   return (
     <FormControl sx={{ display: 'flex', alignItems: 'center', m: '4rem' }}>

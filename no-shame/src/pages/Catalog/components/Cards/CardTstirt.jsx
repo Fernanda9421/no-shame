@@ -1,18 +1,22 @@
-import React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea, Box } from '@mui/material';
-import tShirtsG from '../../../../data/size-G';
+import React, { useContext } from 'react';
+import NoShameContext from '../../../../context/NoShameContext';
+import { CardActionArea, Box, Typography, CardMedia, CardContent, Card } from '@mui/material';
+import tShirtsP from '../../../../data/tShirtsP';
+import tShirtsM from '../../../../data/tShirtsM';
+import tShirtsG from '../../../../data/tShirtsG';
+import tShirtsGG from '../../../../data/tShirtsGG';
+import tShirtsG1 from '../../../../data/tShirtsG1';
+import tShirtsG2 from '../../../../data/tShirtsG2';
 import './cardTshirt.css';
 
 export default function ActionAreaCard() {
-  return (
+  const { size } = useContext(NoShameContext);
+
+  const renderCards = (tShirtSize) => (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', m: '4%' }}>
       {
-        tShirtsG.map((item) => (
-          <Card className='card-area' sx={{ width: 230 }}>
+        tShirtSize.map((item) => (
+          <Card key={item.id} className='card-area' sx={{ width: 230 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -33,5 +37,17 @@ export default function ActionAreaCard() {
         ))
       }
     </Box>
-  );
+  )
+
+  const renderSize = () => {
+    if (size === 'M') return renderCards(tShirtsM);
+    if (size === 'G') return renderCards(tShirtsG);
+    if (size === 'GG') return renderCards(tShirtsGG);
+    if (size === 'G1') return renderCards(tShirtsG1);
+    if (size === 'G2') return renderCards(tShirtsG2);
+
+    return renderCards(tShirtsP);
+  }
+
+  return renderSize();
 }
