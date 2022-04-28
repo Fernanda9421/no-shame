@@ -38,7 +38,7 @@ const tShirtsG = [
   },
   {
     id: 3,
-    name: 'Keep your eyes on the stars',
+    name: 'Keep your eyes ...',
     price: '39,90',
     image: eyes
   },

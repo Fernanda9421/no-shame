@@ -4,14 +4,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, Box } from '@mui/material';
-import tShirtsGG from '../../../../data/size-GG';
+import tShirtsG from '../../../../data/size-G';
 import './cardTshirt.css';
 
 export default function ActionAreaCard() {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', m: '4%' }}>
       {
-        tShirtsGG.map((item) => (
+        tShirtsG.map((item) => (
           <Card className='card-area' sx={{ width: 230 }}>
             <CardActionArea>
               <CardMedia
