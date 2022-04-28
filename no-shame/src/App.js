@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Catalog from './pages/Catalog/Catalog';
 import NoShameProvider from './context/NoShameProvider';
 import MyHistory from './pages/MyHistory/MyHistory';
+import Details from './pages/Details/Details';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/' element={ <Home /> }></Route>
           <Route path='/location' element={ <Location /> }></Route>
           <Route path='/catalog' element={ <Catalog />}></Route>
+          <Route path='/catalog/:id' element={ <Details />}></Route>
           <Route path='/ourhistory' element={ <MyHistory /> }></Route>
         </Routes>
       <Footer />

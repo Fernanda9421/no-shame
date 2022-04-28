@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import NoShameContext from '../../../../context/NoShameContext';
+import { useNavigate } from 'react-router-dom';
 import { CardActionArea, Box, Typography, CardMedia, CardContent, Card } from '@mui/material';
 import tShirtsP from '../../../../data/tShirtsP';
 import tShirtsM from '../../../../data/tShirtsM';
@@ -11,13 +12,14 @@ import './cardTshirt.css';
 
 export default function ActionAreaCard() {
   const { size } = useContext(NoShameContext);
+  const navigate = useNavigate();
 
   const renderCards = (tShirtSize) => (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', m: '4%' }}>
       {
         tShirtSize.map((item) => (
           <Card key={item.id} className='card-area' sx={{ width: 230 }}>
-            <CardActionArea>
+            <CardActionArea onClick={(() => navigate(`/catalog/${item.id}`))}>
               <CardMedia
                 component="img"
                 height="230"

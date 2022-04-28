@@ -1,0 +1,11 @@
+.details {
+  display: flex;
+  align-items: center;
+  color: rgb(170, 170, 170);
+  justify-content: space-evenly;
+  margin: 100px;
+}
+
+.composition {
+  margin: 20px;
+}
