@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Catalog from './pages/Catalog/Catalog';
 import NoShameProvider from './context/NoShameProvider';
+import MyHistory from './pages/MyHistory/MyHistory';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/' element={ <Home /> }></Route>
           <Route path='/location' element={ <Location /> }></Route>
           <Route path='/catalog' element={ <Catalog />}></Route>
+          <Route path='/ourhistory' element={ <MyHistory /> }></Route>
         </Routes>
       <Footer />
     </NoShameProvider>

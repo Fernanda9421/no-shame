@@ -12,7 +12,7 @@ export default function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1} sx={{ fontWeight: 'bold' }}>SOBRE</Box>
               <Box sx={{ lineHeight: 2.5, fontSize: 13 }}>
-                <Link className='link-footer' to='/' underline='none' color='inherit'>NOSSA HISTÓRIA</Link>
+                <Link className='link-footer' to='/ourhistory' underline='none' color='inherit'>NOSSA HISTÓRIA</Link>
               </Box>
               <Box sx={{ fontSize: 13 }}>
                 <Link className='link-footer' to='/location' underline='none' color='inherit'>LOCALIZAÇÃO</Link>
