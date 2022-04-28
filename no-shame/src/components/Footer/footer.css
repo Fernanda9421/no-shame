@@ -9,3 +9,19 @@
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (max-width: 596px) {
+  .logo-footer {
+    font-size: 10px !important;
+  }
+
+  .subtitle-footer {
+    font-size: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .box-footer {
+    padding-bottom: 15px !important;
+  }
+}

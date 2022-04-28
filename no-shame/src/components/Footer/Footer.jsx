@@ -6,7 +6,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <footer className='footer'>
-      <Box px={{xs: 3, sm: 10}} py={{xs: 5, sm: 3}} color='white'>
+      <Box className='box-footer' px={{xs: 3, sm: 10}} py={{xs: 5, sm: 3}} color='white'>
         <Container maxWidth="lg">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
@@ -27,11 +27,11 @@ export default function Footer() {
             </Grid>
 
             <Grid item xs={12} sm={4}>
-              <Box sx={{ fontWeight: 'bold', fontSize: 25 }} textAlign='center'>NO</Box>
-              <Box sx={{ fontWeight: 'bold', fontSize: 25 }} textAlign='center'>SHAME</Box>
+              <Box className='logo-footer' sx={{ fontWeight: 'bold', fontSize: 25 }} textAlign='center'>NO</Box>
+              <Box className='logo-footer' sx={{ fontWeight: 'bold', fontSize: 25 }} textAlign='center'>SHAME</Box>
             </Grid>
           </Grid>
-          <Box textAlign='center' pt={{xs: 5, sm:5}} pb={{xs:5, sm:0}}>
+          <Box className='subtitle-footer' textAlign='center' pt={{xs: 5, sm:5}} pb={{xs:5, sm:0}}>
             No Shame &copy; {new Date().getFullYear()}
           </Box>
         </Container>

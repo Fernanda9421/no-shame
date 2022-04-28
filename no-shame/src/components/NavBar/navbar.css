@@ -14,3 +14,13 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 596px) {
+  .link-navbar {
+    padding: 0 8px;
+  }
+
+  .box-navbar {
+    padding: 20px !important;
+  }
+}

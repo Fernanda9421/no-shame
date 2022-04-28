@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 export default function NavBar() {
   return (
     <div className='navbar'>
-      <Box sx={{ display: 'flex', justifyContent: 'flex-end', fontSize: 13 }}
+      <Box className='box-navbar' sx={{ display: 'flex', justifyContent: 'flex-end', fontSize: 13 }}
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 3 }}
       >
