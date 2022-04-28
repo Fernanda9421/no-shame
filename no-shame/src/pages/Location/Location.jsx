@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Box, Stack } from '@mui/material';
 import './location.css';
 import MapsLocation from '../../components/MapsLocation/MapsLocation';
@@ -7,6 +7,10 @@ import ButtonInstagram from '../../components/ButtonInstagram/ButtonInstagram';
 import Address from '../../components/Address/Address';
 
 export default function Location() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Box className='body-location' sx={{ display: 'flex', alignItems: 'center' }}>
       <MapsLocation />
