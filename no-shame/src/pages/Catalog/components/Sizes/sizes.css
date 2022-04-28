@@ -18,4 +18,12 @@
   #demo-row-radio-buttons-group-label {
     font-size: 1.3rem;
   }
+
+  .form-control {
+    margin: 0 !important;
+  }
+
+  .radio-item {
+    padding: 2px !important;
+  }
 }

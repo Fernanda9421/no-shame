@@ -21,7 +21,7 @@ export default function RowRadioButtonsGroup() {
   });
 
   return (
-    <FormControl sx={{ display: 'flex', alignItems: 'center', m: '4rem' }}>
+    <FormControl className='form-control' sx={{ display: 'flex', alignItems: 'center', m: '4rem' }}>
       <FormLabel
         id="demo-row-radio-buttons-group-label"
         sx={
