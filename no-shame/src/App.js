@@ -6,10 +6,11 @@ import Location from './pages/Location/Location';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Catalog from './pages/Catalog/Catalog';
+import NoShameProvider from './context/NoShameProvider';
 
 function App() {
   return (
-    <>
+    <NoShameProvider>
       <NavBar />
         <Routes>
           <Route exact path='/' element={ <Home /> }></Route>
@@ -17,7 +18,7 @@ function App() {
           <Route path='/catalog' element={ <Catalog />}></Route>
         </Routes>
       <Footer />
-    </>
+    </NoShameProvider>
   );
 }
 
