@@ -8,43 +8,43 @@ import crazy from '../assets/images/sizes/sizeGG/gg7.1.jpeg';
 
 const tShirtsGG = [
   {
-    id: 1,
+    id: 72,
     name: "I'm too busy ...",
     price: '39,90',
     image: mickey
   },
   {
-    id: 2,
+    id: 73,
     name: 'Lion King',
     price: '39,90',
     image: lion
   },
   {
-    id: 3,
+    id: 74,
     name: 'Los Angeles Westside',
     price: '39,90',
     image: westside
   },
   {
-    id: 4,
+    id: 75,
     name: 'Lisa Simpson',
     price: '39,90',
     image: lisa
   },
   {
-    id: 5,
+    id: 76,
     name: 'Cats',
     price: '39,90',
     image: cats
   },
   {
-    id: 6,
+    id: 77,
     name: 'AM PM',
     price: '39,90',
     image: amPm
   },
   {
-    id: 7,
+    id: 78,
     name: 'Stay crazy',
     price: '39,90',
     image: crazy

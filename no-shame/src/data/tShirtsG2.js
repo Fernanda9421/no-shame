@@ -6,31 +6,31 @@ import cor from '../assets/images/sizes/sizeG2/g2.5.jpeg';
 
 const tShirtsG2 = [
   {
-    id: 1,
+    id: 79,
     name: 'but first, coffee',
     price: '39,90',
     image: coffee
   },
   {
-    id: 2,
+    id: 80,
     name: 'Confie no processo',
     price: '39,90',
     image: processo
   },
   {
-    id: 3,
+    id: 81,
     name: 'Stay crazy',
     price: '39,90',
     image: crazy
   },
   {
-    id: 4,
+    id: 82,
     name: 'Minnie',
     price: '39,90',
     image: minnie
   },
   {
-    id: 5,
+    id: 83,
     name: '+ Cor',
     price: '39,90',
     image: cor

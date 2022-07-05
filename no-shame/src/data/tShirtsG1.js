@@ -6,31 +6,31 @@ import minnie from '../assets/images/sizes/sizeG1/g1.5.jpeg';
 
 const tShirtsG1 = [
   {
-    id: 1,
+    id: 67,
     name: 'Confie no processo',
     price: '39,90',
     image: processo
   },
   {
-    id: 2,
+    id: 68,
     name: 'O pequeno príncipe',
     price: '39,90',
     image: principe
   },
   {
-    id: 3,
+    id: 69,
     name: '+ Cor',
     price: '39,90',
     image: cor
   },
   {
-    id: 4,
+    id: 70,
     name: 'Cansei, Me Leva',
     price: '39,90',
     image: cansei
   },
   {
-    id: 5,
+    id: 71,
     name: 'Minnie',
     price: '39,90',
     image: minnie

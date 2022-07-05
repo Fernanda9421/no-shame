@@ -25,145 +25,145 @@ import colorado from '../assets/images/sizes/sizeG/g24.1.jpeg';
 
 const tShirtsG = [
   {
-    id: 1,
+    id: 43,
     name: 'Pink and the Brain',
     price: '39,90',
     image: pink
   },
   {
-    id: 2,
+    id: 44,
     name: 'Lion King',
     price: '39,90',
     image: lionKing
   },
   {
-    id: 3,
+    id: 45,
     name: 'Keep your eyes ...',
     price: '39,90',
     image: eyes
   },
   {
-    id: 4,
+    id: 46,
     name: 'Desert Dreams',
     price: '39,90',
     image: desert
   },
   {
-    id: 5,
+    id: 47,
     name: 'California',
     price: '39,90',
     image: california
   },
   {
-    id: 6,
+    id: 48,
     name: 'Los Angeles',
     price: '39,90',
     image: losAngeles
   },
   {
-    id: 7,
+    id: 49,
     name: 'Los Angeles WestSide',
     price: '39,90',
     image: westside
   },
   {
-    id: 8,
+    id: 50,
     name: 'Dreamer',
     price: '39,90',
     image: dreamer
   },
   {
-    id: 9,
+    id: 51,
     name: 'Good Times',
     price: '39,90',
     image: goodTimes
   },
   {
-    id: 10,
+    id: 52,
     name: 'Explore Space',
     price: '39,90',
     image: explore
   },
   {
-    id: 11,
+    id: 53,
     name: 'Se teus olhos ...',
     price: '39,90',
     image: eyesTwo
   },
   {
-    id: 12,
+    id: 54,
     name: 'Docinho',
     price: '39,90',
     image: docinho
   },
   {
-    id: 13,
+    id: 55,
     name: 'A luz que te ilumina',
     price: '39,90',
     image: luz
   },
   {
-    id: 14,
+    id: 56,
     name: 'Braços dados com Deus',
     price: '39,90',
     image: bracosDeus
   },
   {
-    id: 15,
+    id: 57,
     name: 'Minhas energias',
     price: '39,90',
     image: energias
   },
   {
-    id: 16,
+    id: 58,
     name: 'Mickey Mouse',
     price: '39,90',
     image: mickeyOne
   },
   {
-    id: 17,
+    id: 59,
     name: 'Mulher Maravilha',
     price: '39,90',
     image: mulherMaravilha
   },
   {
-    id: 18,
+    id: 60,
     name: 'Powerful Woman',
     price: '39,90',
     image: powerful
   },
   {
-    id: 19,
+    id: 61,
     name: 'Mickey',
     price: '39,90',
     image: mickeyTwo
   },
   {
-    id: 20,
+    id: 62,
     name: 'Be wild Be brave',
     price: '39,90',
     image: beWild
   },
   {
-    id: 21,
+    id: 63,
     name: 'Lute como uma garota',
     price: '39,90',
     image: lute
   },
   {
-    id: 22,
+    id: 64,
     name: "Rock'n Roll",
     price: '39,90',
     image: rock
   },
   {
-    id: 23,
+    id: 65,
     name: 'Tweety',
     price: '39,90',
     image: tweety
   },
   {
-    id: 24,
+    id: 66,
     name: 'Colorado',
     price: '39,90',
     image: colorado
